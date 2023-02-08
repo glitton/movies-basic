@@ -27,7 +27,6 @@ body {
 }
 
 .logo {
-  font-family: "Sen", sans-serif;
   font-size: 30px;
   color: #4dbf00;
 }
@@ -43,6 +42,10 @@ body {
 
 .menu-list-item {
   margin-right: 30px;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
 }
 
 .profile-container {
