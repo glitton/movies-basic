@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&family=Sen:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <title>Movies</title>
   </head>
   <body>
@@ -27,10 +31,352 @@
           </ul>
         </div>
         <div class="profile-container">
-          <img class="profile-picture" src="./img/profile.jpg" alt="" />
+          <img
+            class="profile-picture"
+            src="./img/profile.jpg"
+            alt="Profile Picture"
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
         </div>
       </div>
     </navbar>
-    <sidebar class="sidebar"></sidebar>
+    <sidebar class="sidebar">
+      <i class="left-menu-icon fas fa-search"></i>
+      <i class="left-menu-icon fas fa-home"></i>
+      <i class="left-menu-icon fas fa-users"></i>
+      <i class="left-menu-icon fas fa-bookmark"></i>
+      <i class="left-menu-icon fas fa-tv"></i>
+      <i class="left-menu-icon fas fa-hourglass-start"></i>
+      <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </sidebar>
+    <main class="container">
+      <section class="content-container">
+        <article
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #343232),
+              url('./img/f-1.jpg');
+          "
+        >
+          <img src="./img/f-t-1.png" alt="Movie Title" class="featured-title" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magni
+            recusandae odit ad mollitia reprehenderit, tempora sunt distinctio
+            ipsum nihil? Eos quisquam et neque fuga, pariatur aperiam sit quis
+            alias.
+          </p>
+          <button class="featured-btn">WATCH</button>
+        </article>
+        <article class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </article>
+        <article class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </article>
+        <article
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #343232),
+              url('./img/f-2.jpg');
+          "
+        >
+          <img src="./img/f-t-2.png" alt="Movie Title" class="featured-title" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magni
+            recusandae odit ad mollitia reprehenderit, tempora sunt distinctio
+            ipsum nihil? Eos quisquam et neque fuga, pariatur aperiam sit quis
+            alias.
+          </p>
+          <button class="featured-btn">WATCH</button>
+        </article>
+        <article class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </article>
+        <article class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="./img/1.jpeg" alt="Her" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Architecto assumenda atque quae eligendi reprehenderit illum.
+                </p>
+                <button class="movie-list-item-btn">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>
